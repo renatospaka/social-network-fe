@@ -251,7 +251,7 @@ class Feed extends Component {
                   key={post._id}
                   id={post._id}
                   author={post.creator.name}
-                  date={new Date(post.createdAt).toLocaleDateString('en-US')}
+                  date={new Date(post.createdAt).toLocaleDateString('pt-BR')}
                   title={post.title}
                   image={post.imageUrl}
                   content={post.content}
